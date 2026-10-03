@@ -1,0 +1,46 @@
+{
+  "$schema": "https://smithery.ai/schema/config.json",
+  "name": "vector-graphics-pipeline-mcp",
+  "displayName": "WHAM // Vector Graphics Pipeline MCP",
+  "description": "Vector SVG path optimization, sub-pixel PNG rasterization, EXIF scrubbing, and vector QR code generation.",
+  "command": "npx",
+  "args": [
+    "-y",
+    "@whambammy/vector-graphics-pipeline-mcp"
+  ],
+  "environment": {
+    "PAYMENT_WALLET": {
+      "type": "string",
+      "description": "Base L2 EVM payout wallet address to receive USDC micropayments",
+      "required": false,
+      "default": "0x9793E7269b3301893318dEa8338576Ba612F39B3"
+    },
+    "BASE_RPC_URL": {
+      "type": "string",
+      "description": "Base L2 RPC endpoint",
+      "required": false,
+      "default": "https://mainnet.base.org"
+    }
+  },
+  "capabilities": {
+    "tools": true
+  },
+  "tools": [
+    {
+      "name": "optimize_vector_svg",
+      "description": "Strips bloated XML, cleans SVG nodes, converts paths for direct cutting, sublimation, and high-performance web graphics. (0.02 USDC on Base L2)"
+    },
+    {
+      "name": "convert_svg_to_png",
+      "description": "Deterministic SVG to PNG rasterizer with crisp sub-pixel antialiasing, custom DPI, and transparent alpha channel preservation. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "generate_qr_code_svg",
+      "description": "Generates high-precision scalable vector (SVG) QR codes with High error correction (ECC Level H), tailored for Base payment URIs. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "compress_image_webp",
+      "description": "Serverless WebP image compressor: optimizes alpha channels, strips privacy-invasive EXIF tags, and cuts image weight by 80%. (0.025 USDC on Base L2)"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "optimize_vector_svg": {
+    "name": "optimize_vector_svg",
+    "description": "Strips bloated XML, cleans SVG nodes, converts paths for direct cutting, sublimation, and high-performance web graphics.",
+    "price_usdc": "0.02",
+    "domain": "Vector & 2D Graphics Asset",
+    "category": "Graphics",
+    "path": "ecosystem/tools/optimize_vector_svg",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "convert_svg_to_png": {
+    "name": "convert_svg_to_png",
+    "description": "Deterministic SVG to PNG rasterizer with crisp sub-pixel antialiasing, custom DPI, and transparent alpha channel preservation.",
+    "price_usdc": "0.015",
+    "domain": "2D Graphics Rendering",
+    "category": "Graphics",
+    "path": "ecosystem/tools/convert_svg_to_png",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_qr_code_svg": {
+    "name": "generate_qr_code_svg",
+    "description": "Generates high-precision scalable vector (SVG) QR codes with High error correction (ECC Level H), tailored for Base payment URIs.",
+    "price_usdc": "0.01",
+    "domain": "Vector Barcodes & Payment Links",
+    "category": "Graphics",
+    "path": "ecosystem/tools/generate_qr_code_svg",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "compress_image_webp": {
+    "name": "compress_image_webp",
+    "description": "Serverless WebP image compressor: optimizes alpha channels, strips privacy-invasive EXIF tags, and cuts image weight by 80%.",
+    "price_usdc": "0.025",
+    "domain": "Media & Asset Compression",
+    "category": "Graphics",
+    "path": "ecosystem/tools/compress_image_webp",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  }
+}
